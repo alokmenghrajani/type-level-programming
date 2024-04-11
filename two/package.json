@@ -1,0 +1,18 @@
+{
+  "name": "type-level-programming",
+  "description": "Commented code for More Type Level Programming PagedOut! article",
+  "version": "0.0.1",
+  "scripts": {
+    "tsc": "tsc --noEmit",
+    "server": "tsc --module es6 --moduleResolution bundler frontend.ts && tsx server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "esbuild": "^0.20.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "tsx": "^4.7.2",
+    "zod": "^3.22.4"
+  }
+}

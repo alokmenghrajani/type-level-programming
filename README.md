@@ -16,3 +16,21 @@ cd one/
 npm install
 npm run tsc
 ```
+
+## Two
+Code for the "More Type Level Programming" [PagedOut!](https://pagedout.institute/) article.
+
+It's best to play with the code in your IDE -- you'll then see how the IDE uses the types
+to provide useful typing suggestions.
+
+![demo](two/demo.gif)
+
+You can also run the code with:
+```bash
+cd two/
+npm install
+npm run tsc
+npm run server
+```
+
+and then open http://127.0.0.1:3000/ in your browser.

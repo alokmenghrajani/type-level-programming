@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <link rel="shortcut icon"
+    href="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjQwIiBzdHJva2U9ImdyZWVuIiBzdHJva2Utd2lkdGg9IjQiIGZpbGw9ImJsdWUiLz48L3N2Zz4K">
+  <style>
+    body {
+      width: 80ch;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Add</h1>
+  <p>x <input type="number" id="x" value="0"></p>
+  <p>y <input type="number" id="y" value="0"></p>
+  <p>sum: <span id="sum">0</span></p>
+
+  <h1>Rot13</h1>
+  <p>plaintext <input type="string" id="plaintext" value=""></p>
+  <p>ciphertext: <span id="ciphertext"></span></p>
+
+  <script type="module">
+    import { add, rot13 } from "./frontend.js";
+    x.addEventListener("change", add);
+    x.addEventListener("keyup", add)
+    y.addEventListener("change", add);
+    y.addEventListener("keyup", add)
+    plaintext.addEventListener("change", rot13);
+    plaintext.addEventListener("keyup", rot13)
+  </script>
+</body>
+
+</html>

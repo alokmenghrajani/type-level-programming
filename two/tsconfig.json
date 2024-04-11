@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2022",
+    "module": "NodeNext",
+  },
+  "files": [
+    "api-types.ts",
+    "backend.ts",
+    "frontend.ts",
+    "server.ts"
+  ]
+}
