@@ -1,0 +1,11 @@
+{
+  "name": "type-level-programming",
+  "description": "Commented code for Type Level Programming PagedOut! article",
+  "version": "0.0.1",
+  "scripts": {
+    "tsc": "tsc --noEmit --strict --target es2022 magic-square.ts tests.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
